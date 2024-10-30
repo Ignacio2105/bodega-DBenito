@@ -4,8 +4,8 @@ session_start(); // Iniciar la sesión para manejar la autenticación
 // Conectar a la base de datos
 $servername = "localhost";
 $username = "root";
-$password = "224728Olay@";
-$dbname = "prueba";
+$password = "";
+$dbname = "dbenito";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
